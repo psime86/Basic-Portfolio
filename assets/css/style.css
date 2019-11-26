@@ -1,9 +1,21 @@
 header {
-    background-color: blueviolet;
+    background-color: rgb(218, 142, 29);
 }
 
 .navigation {
     text-decoration: none;
     float: right;
     margin: 10px;
+}
+
+#about-image {
+    float: left;
+    overflow: auto;
+    width: 200px;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
 }
