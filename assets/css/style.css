@@ -1,0 +1,9 @@
+header {
+    background-color: blueviolet;
+}
+
+.navigation {
+    text-decoration: none;
+    float: right;
+    margin: 10px;
+}
