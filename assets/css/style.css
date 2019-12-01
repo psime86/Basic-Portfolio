@@ -7,14 +7,14 @@ header {
 }
 
 body {
-    background-image: "assets/images/greek-vase.png";
+    background: "images/greek-vase.png";
 }
 
 .container-clearfix {
     padding: 20px;
     max-width: 960px;
     border: 1px solid black;
-    margin: auto;  
+    margin: auto;
 }
 
 .navigation {
@@ -48,5 +48,17 @@ h1 {
 footer {
     text-align: center;
     background-color: darkgray;
+    color: white;
+}
+
+#name, #email, #message {
+    display: block;
+    max-width: 920px;
+}
+
+#submit {
+    background-color: teal;
+    margin-top: 15px;
+    padding: 8px;
     color: white;
 }
