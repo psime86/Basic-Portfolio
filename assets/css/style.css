@@ -41,7 +41,7 @@ h1 {
     display: inline;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 15px;
-    background-color: teal;
+    background-color: #4aaaa5;
     color: white;
 }
 
@@ -57,7 +57,7 @@ footer {
 }
 
 #submit {
-    background-color: teal;
+    background-color: #4aaaa5;
     margin-top: 15px;
     padding: 8px;
     color: white;
