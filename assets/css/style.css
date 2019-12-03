@@ -7,12 +7,13 @@ header {
 }
 
 body {
-    background: "images/greek-vase.png";
+    background: url("../images/greek-vase.png") repeat center center fixed;
 }
 
 .container-clearfix {
     padding: 20px;
-    max-width: 960px;
+    width: 960px;
+    box-sizing: border-box;
     border: 1px solid black;
     margin: auto;
 }
@@ -49,6 +50,7 @@ footer {
     text-align: center;
     background-color: darkgray;
     color: white;
+    position: relative bottom 0;
 }
 
 #name, #email, #message {
