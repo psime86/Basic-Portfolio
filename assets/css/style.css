@@ -1,8 +1,35 @@
 header {
     background-color: #ffffff;
     border-bottom: 1px solid #cccccc;
-    height: 66px;
+    height: 50px;
     margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.navigation {
+    text-decoration: none;
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+h1 {
+    display: inline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr {
+    margin-bottom: 20px;
 }
 
 body {
@@ -18,20 +45,8 @@ body {
     margin: auto;
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.navigation {
-    text-decoration: none;
-    float: right;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-
-#about-image {
-    float: left;
-    overflow: auto;
-    width: 200px;
-    margin-right: 20px;
+    color: #777777;
+    margin-top: 20px;
 }
 
 .clearfix::after {
@@ -40,42 +55,23 @@ body {
     clear: both;
 }
 
-h1 {
-    display: inline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 15px;
-    background-color: #4aaaa5;
-    color: white;
-}
-
-footer {
-    text-align: center;
-    background-color: #666666;
-    color: white;
-    position: relative bottom 0;
-    border-top: 4px #4aaaa5;
-}
-
-#name, #email, #message {
-    display: block;
-    max-width: 920px;
-}
-
-#submit {
-    background-color: #4aaaa5;
-    margin-top: 15px;
-    padding: 8px;
-    color: white;
-}
-
-h2 {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+#about-image {
+    float: left;
+    overflow: auto;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .port-image {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+}
+
+figure {
+    float: left;
+    overflow: auto;
+    position: relative;
 }
 
 figcaption {
@@ -86,12 +82,40 @@ figcaption {
     bottom: 15px;
     background-color: #4aaaa5;
     color: #ffffff;
-    width: 170px;
+    width: 220px;
     text-align: center;
 }
 
-figure {
-    float: left;
-    overflow: auto;
+.contact {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+#name, #email, #message {
+    display: block;
+    width: 920px;
+}
+
+#message {
+    height: 170px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    margin-top: 15px;
+    padding: 8px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: #666666;
+    color: white;
     position: relative;
+    border-top: 5px solid #4aaaa5;
+    height: 50px;
+}
+
+#copyright {
+    margin-top: 27px;
 }
