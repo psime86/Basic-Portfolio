@@ -10,7 +10,7 @@ body {
     margin: 0px;
 }
 
-.container-clearfix {
+.container{
     padding: 20px;
     width: 960px;
     box-sizing: border-box;
@@ -74,21 +74,24 @@ h2 {
 }
 
 .port-image {
-    position: relative;
     width: 200px;
     height: 200px;
 }
 
 figcaption {
     padding: 15px;
-    display: block;
-    float: left;
+    display: inside;
+    float: middle;
     position: absolute;
     bottom: 15px;
     background-color: #4aaaa5;
     color: #ffffff;
+    width: 170px;
+    text-align: center;
 }
 
 figure {
-    display: inline;
+    float: left;
+    overflow: auto;
+    position: relative;
 }
