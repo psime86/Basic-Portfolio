@@ -52,6 +52,22 @@ body {
     padding-bottom: 55px;
 }
 
+#codeguy, #witness, #wrong {
+    text-decoration: none;
+    font-weight: bold;
+    color: #777777;
+}
+
+#codeguy:hover{
+    color: #4aaaa5;
+}
+#witness:hover{
+    color: #4aaaa5;
+}
+#wrong:hover{
+    color: #4aaaa5;
+}
+
 .container{
     padding: 20px;
     width: 960px;
@@ -82,6 +98,8 @@ p {
     line-height: 200%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 .port-image {
     width: 275px;
