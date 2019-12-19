@@ -99,8 +99,6 @@ p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 .port-image {
     width: 275px;
     height: 275px;
@@ -123,6 +121,20 @@ figcaption {
     color: #ffffff;
     width: 245px;
     text-align: center;
+    text-decoration: none;
+}
+
+#paper {
+    text-decoration: none; 
+    color: #ffffff;
+}
+
+#paper:hover {
+    color: #000000;
+}
+
+.port-image-cap:hover {
+    color: #000000;
 }
 
 .contact {
