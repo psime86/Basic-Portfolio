@@ -142,6 +142,15 @@ figcaption {
     color: #000000;
 }
 
+#simpsons {
+    text-decoration: none; 
+    color: #ffffff;
+}
+
+#simpsons:hover {
+    color: #000000;
+}
+
 .port-image-cap:hover {
     color: #000000;
 }
