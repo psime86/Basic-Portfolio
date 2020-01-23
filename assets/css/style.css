@@ -124,30 +124,12 @@ figcaption {
     text-decoration: none;
 }
 
-#crystal {
+.portPic {
     text-decoration: none; 
     color: #ffffff;
 }
 
-#crystal:hover {
-    color: #000000;
-}
-
-#paper {
-    text-decoration: none; 
-    color: #ffffff;
-}
-
-#paper:hover {
-    color: #000000;
-}
-
-#simpsons {
-    text-decoration: none; 
-    color: #ffffff;
-}
-
-#simpsons:hover {
+.portPic:hover {
     color: #000000;
 }
 
